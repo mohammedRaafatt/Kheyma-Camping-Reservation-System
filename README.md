@@ -154,5 +154,11 @@ KHEYMA/
 ---
 
 <p align="center">
+  🌟 *Thanks for visiting my project — let’s build something amazing together!* 🌟
+</p>
+
+---
+
+<p align="center">
   <img src="https://github.com/JayantGoel001/JayantGoel001/blob/master/WEBP/footer.webp" alt="Footer Image"/>
 </p>
