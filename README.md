@@ -90,31 +90,32 @@ npm run dev -- --host --port 5173
 ## 🏗️ **Project Structure**  
 
 ```
-KHEYMA-main/
-├─ README.md
-├─ Activity_diagram.png
-├─ Class Diagram with OCL.svg
-├─ ERD.svg
-├─ Sequence Diagram.svg
-├─ Use Case Diagram with OCL.svg
-├─ Software Requirements Specificiation.pdf
+KHEYMA/
+├─ README.md                    # Main README for the project
+├─ docs/
+│  ├─ API_ENDPOINTS.md          # API reference documentation
+│  ├─ Activity_diagram.png      # Activity diagram
+│  ├─ Class Diagram with OCL.svg # Class diagram with constraints
+│  ├─ ERD.svg                   # Entity Relationship Diagram (ERD)
+│  ├─ Sequence Diagram.svg      # Sequence diagram
+│  ├─ Use Case Diagram with OCL.svg # Use case diagram with constraints
+│  ├─ Software Requirements Specificiation.pdf # SRS document
 ├─ kheyma_backend/
 │  ├─ README.md
-│  ├─ API_ENDPOINTS.md
 │  ├─ pom.xml
 │  └─ src/main/
 │     ├─ java/com/kheyma/
-│     │  ├─ aop/               (logging, performance, security aspects)
-│     │  ├─ config/            (AOP, Mongo config)
-│     │  ├─ controller/        (Admin, Auth, Location, Review, Transaction)
-│     │  ├─ database/          (init/seeding)
-│     │  ├─ dto/               (request/response DTOs)
-│     │  ├─ exception/         (global handler, custom exceptions)
-│     │  ├─ model/             (User, Location, Review, Transaction)
-│     │  ├─ repository/        (Mongo repositories)
-│     │  ├─ security/          (JWT, filters, security config)
-│     │  ├─ service/           (business services)
-│     │  └─ util/              (security helpers)
+│     │  ├─ aop/
+│     │  ├─ config/
+│     │  ├─ controller/
+│     │  ├─ database/
+│     │  ├─ dto/
+│     │  ├─ exception/
+│     │  ├─ model/
+│     │  ├─ repository/
+│     │  ├─ security/
+│     │  ├─ service/
+│     │  └─ util/
 │     └─ resources/
 │        └─ application.yml
 └─ kheyma_frontend/
@@ -129,13 +130,11 @@ KHEYMA-main/
       ├─ App.jsx
       ├─ App.css / index.css
       ├─ assets/
-      ├─ components/      (Navbar, Footer, ScrollToTop)
-      ├─ contexts/        (AuthContext)
-      ├─ pages/           (Home, Listing, Detail, Booking, AdminDashboard, etc.)
-      └─ services/        (api.js with Axios client)
+      ├─ components/
+      ├─ contexts/
+      ├─ pages/
+      └─ services/
 ```
-
----
 
 ## 💻 **Frontend Highlights**
 
